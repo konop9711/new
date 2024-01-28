@@ -19,7 +19,7 @@ const Mint: NextPage = () => {
       <Web3Button
         colorMode="dark"
         accentColor="#5204BF"
-        contractAddress="0xE09F79034E928E70A215430676F9dfeaa713622f"
+        contractAddress="0x39572afF74b7A9ee6b300d7eD50347BFc0519895"
         action={(contract) => contract.erc721.claim(1)}
         onSuccess={() => {
           alert("NFT Claimed!");
